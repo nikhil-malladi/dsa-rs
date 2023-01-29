@@ -17,7 +17,7 @@ pub fn contains_duplicate_1(nums: Vec<i32>) -> bool {
 mod tests {
     use super::*;
     #[test]
-    fn test_contains_duplicate_1() {
+    fn test_1_contains_duplicate() {
         let vec: Vec<i32> = vec![1,2,3];
         let test_result: bool = contains_duplicate_1(vec);
         const ideal_result: bool = false;
@@ -25,7 +25,7 @@ mod tests {
     }
 
     #[test]
-    fn test_contains_duplicate_2() {
+    fn test_2_contains_duplicate() {
         let vec: Vec<i32> = vec![1,2,3,1];
         let test_result: bool = contains_duplicate_1(vec);
         const ideal_result: bool = true;

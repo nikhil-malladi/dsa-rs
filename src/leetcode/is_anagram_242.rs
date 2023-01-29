@@ -33,7 +33,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_is_anagram_1() {
+    fn test_1_is_anagram() {
         let st1: String = String::from("anagram");
         let st2: String = String::from("naaramg");
 
@@ -46,7 +46,7 @@ mod tests {
     }
 
     #[test]
-    fn test_is_anagram_2() {
+    fn test_2_is_anagram() {
         let st1: String = String::from("abcd");
         let st2: String = String::from("abab");
 

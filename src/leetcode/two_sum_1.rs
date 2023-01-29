@@ -19,7 +19,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_two_sum_1() {
+    fn test_1_two_sum() {
         let vect: Vec<i32> = vec![2,3,5,1];
         const target: i32 = 4;
         
@@ -31,7 +31,7 @@ mod tests {
     }
 
     #[test]
-    fn test_two_sum_2() {
+    fn test_2_two_sum() {
         let vect: Vec<i32> = vec![2,1,8,3,4];
         const target: i32 = 6;
         
